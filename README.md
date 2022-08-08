@@ -1,13 +1,8 @@
 <h1 align="center">
-    <a href="thiagoavieira.github.io/doctorcare">🔗 DoctorCare</a>
+    <a href="http://thiagoavieira.github.io/doctorcare">🔗 DoctorCare</a>
 </h1>
 <p align="center">🚀 Site modelo sobre "Assistência Médica"</p>
-
-<p align="center">
-  <a href="#funcionalidades">Funcionalidades</a> •
-  <a href="#beneficios">Benefícios</a> •
-  <a href="#contribuicoes">Contribuições</a> •
-</p>
+<br></br>
 
 <p align="center">
   <kbd>
@@ -18,6 +13,7 @@
     <img width="300" style="border-radius: 5px" height="375" src="https://i.postimg.cc/k42XYZcL/doctor-care-example-2.png" alt="Mobile">
   </kbd>
 </p>
+<p align="center">Compatibilidade com Desktop 🖥️ e Mobile 📱</p>
 
 ## **Funcionalidades** 💬
 --------
