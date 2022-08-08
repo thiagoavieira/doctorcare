@@ -1,4 +1,5 @@
 window.addEventListener('scroll', onScroll)
+const navigation = document.getElementById('navigation')
 
 onScroll()
 function onScroll() {
@@ -21,12 +22,12 @@ function activateMenuAtCurrentSection(section) {
   const sectionTopReachOrPassedTargetline = targetLine >= sectionTop
 
   // verificar se a base está abaixo da linha alvo
-
   const sectionEndsAt = sectionTop + sectionHeight
   const sectionEndPassedTargetline = sectionEndsAt <= targetLine
 
   // limites da seção
-  const sectionBoundaries = sectionTopReachOrPassedTargetline && !sectionEndPassedTargetline
+  const sectionBoundaries =
+    sectionTopReachOrPassedTargetline && !sectionEndPassedTargetline
 
   const sectionId = section.getAttribute('id')
   const menuElement = document.querySelector(`.menu a[href*=${sectionId}]`)
